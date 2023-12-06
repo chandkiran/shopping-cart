@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+ body{
+    font-family:sans-serif;
+} 
+/* styling of navigation bar */
+.navbar{
+    display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    background-color: #242423;
+    color: white;
+    padding: 25px 60px;
+    /* this causes top bottom padding 25px and left right padding 60px */
+
+}
+.cart{
+    position: relative;
+    background-color: #fff;
+    color: #242423;
+    font-size: 25px;
+    padding: 5px; 
+    border-radius: 5px;
+}
+.cartamount{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    font-size: 16px;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: ;
+}
